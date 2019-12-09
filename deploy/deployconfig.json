@@ -1,0 +1,8 @@
+{
+	"dx_host"			:	"localhost:8080",
+	"dx_username"		:	"root",
+	"dx_password"		:	"root1234",
+	"dx_tool_username"	:	"jahia",
+	"dx_tool_password"	:	"password",
+	"delay_seconds"		:	1
+}
