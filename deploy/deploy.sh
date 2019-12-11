@@ -114,7 +114,7 @@ printBundleOpResult() {
 	operation=$2
 	bundleNameCheck=$3
 	if [[ $curlOutput == *"Operation successful"* ]]; then
-		echo "Bundle $bundleNameCheck $operation sucessful"
+		echo "Bundle $bundleNameCheck $operation successful"
 	else
 		REQUEST_STATUS=$(echo $curlOutput | $JQ_BIN ". | .status")
 		REQUEST_MESSAGE=$(echo $curlOutput | $JQ_BIN ". | .message")
